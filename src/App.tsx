@@ -7,7 +7,7 @@ import {
   MousePointer2,
   Sparkles,
   Wand2,
-  Workflow as WorkflowIcon,
+  Workflow,
 } from 'lucide-react'
 import { SectionHeader } from './components/section-header'
 import { Badge } from './components/ui/badge'
@@ -151,7 +151,7 @@ function Hero() {
             <div className="relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-6 shadow-glass backdrop-blur-xl">
               <div className="flex items-center justify-between text-sm text-slate-200/80">
                 <span className="inline-flex items-center gap-2 rounded-full bg-white/5 px-3 py-1 text-xs text-white/90">
-                  <WorkflowIcon className="h-4 w-4 text-sky-300" /> Flow intelligence
+                  <Workflow className="h-4 w-4 text-sky-300" /> Flow intelligence
                 </span>
                 <span className="text-xs uppercase tracking-[0.2em] text-brand-100">Live</span>
               </div>
