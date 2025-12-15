@@ -6,7 +6,7 @@ A modern, single-page SaaS landing experience for Vibe, an AI-powered data autom
 
 ```bash
 npm install
-npm run dev
+npm run dev -- --port 3000
 ```
 
 If your environment blocks access to npm registries, install dependencies from an approved mirror before running the app.
